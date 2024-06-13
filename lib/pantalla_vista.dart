@@ -6,6 +6,7 @@ import 'pantalla_registro.dart';
 class PantallaVista extends StatefulWidget {
   @override
   _PantallaVistaState createState() => _PantallaVistaState();
+  
 }
 
 class _PantallaVistaState extends State<PantallaVista> {
@@ -14,6 +15,7 @@ class _PantallaVistaState extends State<PantallaVista> {
   @override
   void initState() {
     super.initState();
+    print(_cargarNombre);
     _cargarNombre();
   }
 
